@@ -1,4 +1,4 @@
-# Initialize React.js project with Chakra UI
+# Initialize Hagintea Shop with React.js and Chakra UI
 
 ## Setup project and run project
 
