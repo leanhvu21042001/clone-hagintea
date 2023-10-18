@@ -15,12 +15,21 @@ const TeaStoryHeroContentSection1 = (props: ITeaStoryHeroContentSection1) => {
   return (
     <Grid gridTemplateColumns={{ base: '1fr' }} gridTemplateRows={{ base: '1fr' }}>
       <Box gridColumn={{ base: '1/2' }} gridRow={{ base: '1/2' }}>
-        <Image src={image} />
+        <Image src={image} height="100%" objectFit="cover" />
       </Box>
 
       <Grid gridColumn={{ base: '1/2' }} gridRow={{ base: '1/2' }} alignItems="center">
         <Container maxWidth="container.xl">
-          <Box color="#fff">
+          <Box
+            color="#fff"
+            padding={{
+              xl: '160px 0px 160px  100px',
+              lg: '160px 0px 160px  100px',
+              md: '60px',
+              sm: '30px',
+              base: '15px',
+            }}
+          >
             <Text textAlign="center" fontSize={['sm', 'md', 'lg', 'xl', '2xl', '3xl']}>
               {title}
             </Text>

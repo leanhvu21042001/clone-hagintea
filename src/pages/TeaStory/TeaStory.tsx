@@ -6,7 +6,7 @@ import TeaStoryHeroContentSection2 from './components/TeaStoryHeroContentSection
 
 const TeaStory = () => {
   return (
-    <PageWrapperNoneBackground className="haginTeaShop-tea-story">
+    <PageWrapperNoneBackground className="TeaShop-tea-story">
       <Container maxWidth="container.lg">
         <Text fontSize={['xs', 'sm', 'md', 'lg', 'xl', '2xl']} textAlign="center">
           CHUYỆN TRÀ

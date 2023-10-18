@@ -2,7 +2,8 @@ import React from 'react';
 
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 
-import { Home, About, Shop, TeaStory } from './pages';
+import { Home, About, Shop, TeaStory, Contact, NotFound } from './pages';
+
 import { Layout } from './default-layout/Layout';
 
 export const RoutesWrapper = () => {
@@ -15,6 +16,8 @@ export const RoutesWrapper = () => {
         <Route path="/about" element={<About />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/tea-story" element={<TeaStory />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
   );

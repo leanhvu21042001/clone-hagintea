@@ -9,7 +9,7 @@ import HomeHeroSection4 from './components/HomeHeroSection4';
 
 const Home = () => {
   return (
-    <Box className="haginTeaShop-home">
+    <Box className="TeaShop-home">
       <HomeHeroSection1 />
       <HomeAboutUsSection />
       <HomeHeroSection2 />

@@ -60,7 +60,7 @@ const HomeHeroSection2 = () => {
           backgroundColor="#fff"
           border="unset"
         />
-        <Button variant="haginTeaOutlineButton">XEM THÊM</Button>
+        <Button variant="TeaOutlineButton">XEM THÊM</Button>
       </Flex>
     </Grid>
   );

@@ -5,7 +5,7 @@ import { Box, Button, Flex, Grid, Image, Text } from '@chakra-ui/react';
 const HomeHeroSection3 = () => {
   return (
     <Grid
-      gridTemplateColumns="repeat(auto-fit, minmax(calc(100%/3), 1fr))"
+      gridTemplateColumns="repeat(auto-fit, minmax(350px, 1fr))"
       gridTemplateRows="auto"
     >
       <Grid
@@ -41,7 +41,7 @@ const HomeHeroSection3 = () => {
             Dù cách làm trà hiện đại hay truyền thống, mục đích đều để có một tách trà
             ngon
           </Text>
-          <Button variant="haginTeaOutlineButton">XEM THÊM</Button>
+          <Button variant="TeaOutlineButton">XEM THÊM</Button>
         </Flex>
       </Grid>
 
@@ -76,7 +76,7 @@ const HomeHeroSection3 = () => {
           <Text margin={{ base: '14px 0px 16px' }}>
             Uống trà có thể phức tạp cầu kỳ, nhưng cũng có thể giản đơn mà vẫn trọn vẹn
           </Text>
-          <Button variant="haginTeaOutlineButton">XEM THÊM</Button>
+          <Button variant="TeaOutlineButton">XEM THÊM</Button>
         </Flex>
       </Grid>
 
@@ -112,7 +112,7 @@ const HomeHeroSection3 = () => {
           <Text margin={{ base: '14px 0px 16px' }}>
             Thưởng trà, không chỉ có trà, mà còn là những câu chuyện được kể suốt ngàn năm
           </Text>
-          <Button variant="haginTeaOutlineButton">XEM THÊM</Button>
+          <Button variant="TeaOutlineButton">XEM THÊM</Button>
         </Flex>
       </Grid>
     </Grid>

@@ -2,6 +2,11 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "leanhvu21042001",
+    "email": "leanhvu21042001@gmail.com",
+    "url": "https://github.com/leanhvu21042001/hagintea-clone"
+  },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.5.1",

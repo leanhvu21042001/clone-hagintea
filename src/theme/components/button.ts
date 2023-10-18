@@ -11,8 +11,7 @@ const Button: ComponentStyleConfig = {
       fontFamily: 'VT323',
       color: '#276955',
     },
-    haginTeaFilledButton: {
-      size: 'lg',
+    TeaFilledButton: {
       color: '#fff',
       borderColor: '#00264b',
       backgroundColor: '#00264b',
@@ -20,8 +19,9 @@ const Button: ComponentStyleConfig = {
       margin: { base: '17px 0 12px' },
       borderRadius: 5,
       _hover: { backgroundColor: '#DDB40D', borderColor: '#DDB40D' },
+      fontSize: ['xs', 'sm'],
     },
-    haginTeaOutlineButton: {
+    TeaOutlineButton: {
       variant: 'outline',
       borderColor: '#fff',
       borderWidth: 2,
@@ -29,11 +29,12 @@ const Button: ComponentStyleConfig = {
       borderRadius: 2,
       width: 'fit-content',
       _hover: { color: '#000', backgroundColor: '#fff' },
+      fontSize: ['xs', 'sm'],
     },
   },
   // default values for 'size', 'variant' and 'colorScheme'
   defaultProps: {
-    size: '',
+    size: 'lg',
     variant: '',
     colorScheme: '',
   },

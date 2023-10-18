@@ -1,11 +1,6 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
-  "cSpell.words": [
-    "Chakra",
-    "Formik",
-    "Hagin",
-    "tanstack"
-  ],
+  "cSpell.words": ["Chakra", "Formik", "tanstack"],
   "workbench.iconTheme": "vscode-icons",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.guides.bracketPairs": true,
@@ -23,5 +18,11 @@
   "editor.cursorBlinking": "expand",
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 4,
-  "editor.fontSize": 16
+  "editor.lineHeight": 1.4,
+  "editor.fontSize": 14,
+  // "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "JetBrains Mono, cascadia code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "prettier.endOfLine": "auto",
+  "workbench.colorTheme": "Default Dark+"
 }

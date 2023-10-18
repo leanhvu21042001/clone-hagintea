@@ -5,7 +5,7 @@ import ProductItem from './components/ProductItem';
 
 const Shop = () => {
   return (
-    <PageWrapperNoneBackground className="haginTeaShop-shop">
+    <PageWrapperNoneBackground className="TeaShop-shop">
       <Container maxWidth="container.lg">
         <Text
           fontSize={['md', 'lg', 'xl', '2xl', '3xl', '4xl']}
@@ -18,7 +18,7 @@ const Shop = () => {
 
         <Grid
           marginTop={{ base: '50px' }}
-          gridTemplateColumns="repeat(auto-fit, minmax(calc(90%/3), 1fr))"
+          gridTemplateColumns="repeat(auto-fit, minmax(250px, 1fr))"
           gridTemplateRows="auto"
           gap={10}
         >

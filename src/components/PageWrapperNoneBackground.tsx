@@ -3,7 +3,7 @@ import React from 'react';
 import { Box } from '@chakra-ui/react';
 
 interface IPageWrapperNoneBackground {
-  children: React.ReactElement | React.ReactElement[];
+  children?: React.ReactElement | React.ReactElement[];
   className: string;
 }
 

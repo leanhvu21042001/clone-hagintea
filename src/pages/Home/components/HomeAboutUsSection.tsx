@@ -62,17 +62,46 @@ const HomeAboutUsSection = () => {
         <Grid
           gridColumn={{ base: '1/2' }}
           gridRow={{ base: '1/2' }}
-          placeContent="center"
-          maxWidth={{ base: '50%' }}
+          placeContent={{
+            xl: 'center',
+            lg: 'center',
+            md: 'center',
+            sm: 'end center',
+            base: 'end center',
+          }}
+          textAlign={{
+            xl: 'unset',
+            lg: 'unset',
+            md: 'unset',
+            sm: 'center',
+            base: 'center',
+          }}
+          width={{ xl: '50%', lg: '50%', md: '50%', sm: '100%', base: '100%' }}
         >
-          <Box padding={{ base: '60px 120px' }}>
+          <Box
+            padding={{
+              xl: '60px 120px',
+              lg: '60px 120px',
+              md: '60px 120px',
+              sm: '5px 12px',
+              base: '5px 12px',
+            }}
+          >
             <Text color="#00264b" fontSize={['lg', 'xl', '2xl', '3xl', '4xl', '5xl']}>
               HAGINTEA
             </Text>
-            <Text margin={{ base: '24px 0' }}>
+            <Text
+              margin={{
+                xl: '24px 0',
+                lg: '24px 0',
+                md: '24px 0',
+                sm: '4px 0',
+                base: '4px 0',
+              }}
+            >
               Khám phá hương vị tuyệt vời đến từ những búp trà cổ thụ.
             </Text>
-            <Button variant="haginTeaFilledButton">XEM NGAY</Button>
+            <Button variant="TeaFilledButton">XEM NGAY</Button>
           </Box>
         </Grid>
       </Grid>
@@ -80,7 +109,7 @@ const HomeAboutUsSection = () => {
       <Divider height={50} backgroundColor="unset" border="unset" />
 
       <Grid
-        gridTemplateColumns="repeat(auto-fit, minmax(calc(90%/3), 1fr))"
+        gridTemplateColumns="repeat(auto-fit, minmax(250px, 1fr))"
         gridTemplateRows="auto"
         gap={10}
       >

@@ -37,10 +37,11 @@ const abouts = [
 
 const About = () => {
   return (
-    <Box>
+    <Box className="TeaShop-about">
       {abouts.map((about, index) => (
         <AboutHeroContentSection
           key={`${about.title}-${index}`}
+          index={index}
           title={about.title}
           content={about.content}
           image={about.image}

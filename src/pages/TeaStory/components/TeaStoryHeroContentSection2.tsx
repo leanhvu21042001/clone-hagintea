@@ -24,10 +24,19 @@ const TeaStoryHeroContentSection2 = (
         gridColumn={{ base: '1/2' }}
         gridRow={{ base: '1/2' }}
         placeContent="center"
-        maxWidth={{ base: '50%' }}
+        width={{ xl: '50%', lg: '50%', md: '100%', sm: '100%', base: '100%' }}
         marginLeft={isLeft ? 'unset' : 'auto'}
       >
-        <Box color="#fff" padding={{ base: '160px 0px 160px  100px' }}>
+        <Box
+          color="#fff"
+          padding={{
+            xl: '160px 0px 160px  100px',
+            lg: '160px 0px 160px  100px',
+            md: '60px',
+            sm: '30px',
+            base: '15px',
+          }}
+        >
           <Text fontSize={['sm', 'md', 'lg', 'xl', '2xl', '3xl']} textAlign="center">
             {title}
           </Text>

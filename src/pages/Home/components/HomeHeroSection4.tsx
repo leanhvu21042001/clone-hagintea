@@ -41,10 +41,31 @@ const HomeHeroSection4 = () => {
         <Grid
           gridColumn={{ base: '1/2' }}
           gridRow={{ base: '1/2' }}
-          alignItems="center"
-          maxWidth={{ base: '50%' }}
+          alignItems={{
+            xl: 'center',
+            lg: 'center',
+            md: 'center',
+            sm: 'end',
+            base: 'end',
+          }}
+          width={{ xl: '50%', lg: '100%', md: '100%', sm: '100%', base: '100%' }}
         >
-          <Box padding={{ base: '60px 120px' }}>
+          <Box
+            padding={{
+              xl: '60px 120px',
+              lg: '60px',
+              md: '30px',
+              sm: '5px 12px',
+              base: '5px 12px',
+            }}
+            textAlign={{
+              xl: 'unset',
+              lg: 'unset',
+              md: 'unset',
+              sm: 'center',
+              base: 'center',
+            }}
+          >
             <Text color="#00264b" fontSize={['sm']}>
               NHẬN TIN TỨC MỚI NHẤT TỪ CHÚNG TÔI.
             </Text>
@@ -54,7 +75,13 @@ const HomeHeroSection4 = () => {
             <Divider
               height="2px"
               width="40px"
-              margin={{ base: '24px 0 16px 0' }}
+              margin={{
+                xl: '24px 0 16px 0',
+                lg: '24px 0 16px 0',
+                md: '24px 0 16px 0',
+                sm: '24px auto',
+                base: '24px auto',
+              }}
               backgroundColor="#000"
               border="unset"
             />
@@ -65,7 +92,7 @@ const HomeHeroSection4 = () => {
                   placeholder="Email của bạn"
                   fontSize={['sm', 'md', 'lg']}
                   padding={{ base: '10px 17px' }}
-                  maxWidth="50%"
+                  maxWidth={{ xl: '50%', lg: '50%', md: '50%', sm: '100%', base: '100%' }}
                 />
               </FormLabel>
               <Button
